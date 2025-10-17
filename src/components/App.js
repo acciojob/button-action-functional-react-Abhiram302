@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="main">
       <button id = "click" onClick={()=>{
-        setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
+        setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.")
       }}>Click</button>
 
       <p id="para">{para}</p>
