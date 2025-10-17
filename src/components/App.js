@@ -8,6 +8,8 @@ function App() {
       <button id = "click" onClick={()=>{
         setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
       }}>Click</button>
+
+      <p id="para">{para}</p>
     </div>
   );
 }
